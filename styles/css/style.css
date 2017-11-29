@@ -1,0 +1,46 @@
+/* line 1, ../sass/layout/_buttons.scss */
+.button-wrapper {
+  padding-top: 50px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+/* line 7, ../sass/layout/_buttons.scss */
+h2 {
+  font-size: 25px;
+  color: #B0B0B7;
+  text-transform: uppercase;
+}
+
+/* line 13, ../sass/layout/_buttons.scss */
+button {
+  outline: none;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+}
+
+/* line 21, ../sass/layout/_buttons.scss */
+.button-add {
+  background-color: #FA8328;
+  color: #757577;
+  border-radius: 15px;
+}
+
+/* line 28, ../sass/layout/_buttons.scss */
+.color-button-two {
+  background-color: red;
+}
+
+/* line 32, ../sass/layout/_buttons.scss */
+.color-button-three {
+  background-color: green;
+}
+
+/* line 1, ../sass/layout/_common.scss */
+.containar {
+  width: 740px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
