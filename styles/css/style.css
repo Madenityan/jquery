@@ -42,6 +42,11 @@ button {
   display: none;
 }
 
+/* line 40, ../sass/layout/_buttons.scss */
+#button-sixteenth {
+  margin-right: 30px;
+}
+
 /* line 1, ../sass/layout/_common.scss */
 .containar {
   width: 740px;

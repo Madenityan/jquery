@@ -30,10 +30,14 @@
         $("#button-six").trigger("click");
     });
 
+
+
+
     $("#button-eight").on("click",function(){
-        // $("#button-eight").text("cloned");
-        $("#button-eight").clone().appendTo(".wrapper");
+        $("#button-eight").clone().text("cloned").appendTo(".wrapper");
     });
+
+
 
     $("#button-nine").on("click",function(){
         console.log(
@@ -41,7 +45,7 @@
     });
 
     $("#button-ten").on("click",function(){
-        $.each($('button'),function(index, element){
+        $.each($('button'),function(){
             console.log($(this).text());
         });
     });
@@ -67,7 +71,29 @@
         $(".text-button-fifteenth").show("slow");
     });
 
+    $("#button-sixteenth").on("click",function(){
 
+        var styleProps = $(this).css([
+            "width", "height", "background-color"
+        ]);
+
+        $.each( styleProps, function( prop, value ) {
+           console.log(prop + ": " + value);
+        });
+
+        console.log($(this).offset());
+
+        $(this).each(function() {
+            $.each(this.attributes, function() {
+            if(this.specified) {
+                console.log(this.name, this.value);
+                }
+            });
+        });
+        console.log($(this).parent());
+        console.log($(this).text());
+        console.log($(this).siblings());
+    });
 
 
 
