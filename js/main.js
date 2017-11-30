@@ -31,8 +31,46 @@
     });
 
     $("#button-eight").on("click",function(){
+        // $("#button-eight").text("cloned");
         $("#button-eight").clone().appendTo(".wrapper");
     });
+
+    $("#button-nine").on("click",function(){
+        console.log(
+            $('#button-nine').closest(".wrapper-btn"));
+    });
+
+    $("#button-ten").on("click",function(){
+        $.each($('button'),function(index, element){
+            console.log($(this).text());
+        });
+    });
+
+    $("#button-eleven").on("click",function(){
+        $("this").find("#button-eleven");
+        console.log($(this).text());
+    });
+
+    $("#button-twelve").on("click",function(){
+        $(".text-button-twelve").fadeIn("slow");
+    });
+
+    $("#button-thirteen").on("click",function(){
+        $(".text-button-thirteen").fadeOut("slow");
+    });
+
+    $("#button-fourteenth").on("click",function(){
+        $(".text-button-fourteenth").hide("slow");
+    });
+
+    $("#button-fifteenth").on("click",function(){
+        $(".text-button-fifteenth").show("slow");
+    });
+
+
+
+
+
 
 
 

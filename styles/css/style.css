@@ -37,10 +37,16 @@ button {
   background-color: green;
 }
 
+/* line 36, ../sass/layout/_buttons.scss */
+.text-button-twelve, .text-button-fifteenth {
+  display: none;
+}
+
 /* line 1, ../sass/layout/_common.scss */
 .containar {
   width: 740px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
