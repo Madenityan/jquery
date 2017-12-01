@@ -1,0 +1,51 @@
+.yellow {
+  background-color: $yellow-color;
+}
+
+.list-eq {
+  li {
+    width: 100px;
+  }
+}
+
+.orange {
+  color: $darkorange;
+}
+
+.html {
+  span {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.index {
+  a {
+    text-decoration: none;
+    color: $cornflowerblue;
+    font-size: 20px;
+  }
+}
+
+.red {
+  background-color: red;
+}
+
+.button-yellow {
+  background-color: $yellow-color;
+}
+
+.methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  div {
+    width: 400px;
+  }
+}
+
+.eq {
+  ol {
+    -webkit-padding-start: 0;
+  }
+}

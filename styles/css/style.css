@@ -55,3 +55,62 @@ button {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* line 9, ../sass/layout/_common.scss */
+.methods {
+  padding-top: 70px;
+}
+
+/* line 1, ../sass/layout/_methods.scss */
+.yellow {
+  background-color: #ffff00;
+}
+
+/* line 6, ../sass/layout/_methods.scss */
+.list-eq li {
+  width: 100px;
+}
+
+/* line 11, ../sass/layout/_methods.scss */
+.orange {
+  color: #FA8328;
+}
+
+/* line 16, ../sass/layout/_methods.scss */
+.html span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* line 23, ../sass/layout/_methods.scss */
+.index a {
+  text-decoration: none;
+  color: #6161CE;
+  font-size: 20px;
+}
+
+/* line 30, ../sass/layout/_methods.scss */
+.red {
+  background-color: red;
+}
+
+/* line 34, ../sass/layout/_methods.scss */
+.button-yellow {
+  background-color: #ffff00;
+}
+
+/* line 38, ../sass/layout/_methods.scss */
+.methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* line 42, ../sass/layout/_methods.scss */
+.methods div {
+  width: 400px;
+}
+
+/* line 48, ../sass/layout/_methods.scss */
+.eq ol {
+  -webkit-padding-start: 0;
+}
