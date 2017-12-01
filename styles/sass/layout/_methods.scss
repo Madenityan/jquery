@@ -4,7 +4,13 @@
 
 .list-eq {
   li {
-    width: 100px;
+    list-style: none;
+  }
+}
+
+.eq {
+  ol {
+    -webkit-padding-start: 0;
   }
 }
 
@@ -39,13 +45,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   div {
     width: 400px;
-  }
-}
-
-.eq {
-  ol {
-    -webkit-padding-start: 0;
+    border: 1px solid $grey-color;
+    text-align: center;
+    padding: 25px;
   }
 }

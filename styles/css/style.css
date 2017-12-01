@@ -68,49 +68,98 @@ button {
 
 /* line 6, ../sass/layout/_methods.scss */
 .list-eq li {
-  width: 100px;
+  list-style: none;
 }
 
-/* line 11, ../sass/layout/_methods.scss */
+/* line 12, ../sass/layout/_methods.scss */
+.eq ol {
+  -webkit-padding-start: 0;
+}
+
+/* line 17, ../sass/layout/_methods.scss */
 .orange {
   color: #FA8328;
 }
 
-/* line 16, ../sass/layout/_methods.scss */
+/* line 22, ../sass/layout/_methods.scss */
 .html span {
   display: block;
   margin-bottom: 20px;
 }
 
-/* line 23, ../sass/layout/_methods.scss */
+/* line 29, ../sass/layout/_methods.scss */
 .index a {
   text-decoration: none;
   color: #6161CE;
   font-size: 20px;
 }
 
-/* line 30, ../sass/layout/_methods.scss */
+/* line 36, ../sass/layout/_methods.scss */
 .red {
   background-color: red;
 }
 
-/* line 34, ../sass/layout/_methods.scss */
+/* line 40, ../sass/layout/_methods.scss */
 .button-yellow {
   background-color: #ffff00;
 }
 
-/* line 38, ../sass/layout/_methods.scss */
+/* line 44, ../sass/layout/_methods.scss */
 .methods {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-/* line 42, ../sass/layout/_methods.scss */
+/* line 49, ../sass/layout/_methods.scss */
 .methods div {
   width: 400px;
+  border: 1px solid #B0B0B7;
+  text-align: center;
+  padding: 25px;
 }
 
-/* line 48, ../sass/layout/_methods.scss */
-.eq ol {
-  -webkit-padding-start: 0;
+/* line 1, ../sass/layout/_form.scss */
+.form {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* line 5, ../sass/layout/_form.scss */
+.form label {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+/* line 11, ../sass/layout/_form.scss */
+.form input {
+  margin-left: 10px;
+  outline: none;
+}
+/* line 15, ../sass/layout/_form.scss */
+.form .about {
+  width: 260px;
+}
+/* line 19, ../sass/layout/_form.scss */
+.form .inline {
+  display: inline;
+}
+/* line 23, ../sass/layout/_form.scss */
+.form select {
+  margin-bottom: 20px;
+}
+/* line 27, ../sass/layout/_form.scss */
+.form button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #FA8328;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* line 35, ../sass/layout/_form.scss */
+.form legend {
+  color: #FA8328;
+}
+
+/* line 40, ../sass/layout/_form.scss */
+.yellow-input {
+  box-shadow: 0 0 10px rgba(245, 133, 12, 0.5);
 }

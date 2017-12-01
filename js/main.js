@@ -123,7 +123,7 @@
         $("h3").off("click");
      });
 
-    $("input[type='checkbox']").prop(
+    $(".prop input[type='checkbox']").prop(
     "checked", true);
 
     $("#button-remove").on("click",function(){
@@ -134,10 +134,8 @@
         $("#button-removeattr").removeAttr("class");
     });
 
-     $(function(){
-        $(window).resize(function(){
-            console.log('resize');
-        });
+    $(window).resize(function() {
+        console.log( "width = " + $(window).width());
     });
 
     $(function(){
@@ -145,14 +143,6 @@
             console.log('scroll');
         });
     });
-
-    // $(function(){
-    //     $(window).scroll(function(){
-    //         if($(this).scrollTop() > 100){
-    //             $(this).scrollTop(0);
-    //         }
-    //     });
-    // });
 
     $("#button-rslideup").on("click",function(){
         $("#slide").slideUp();
@@ -165,6 +155,55 @@
     $("#button-slidetoggle").on("click",function(){
         $("#slide-toggle").slideToggle();
     });
+
+    $("#button-scrolltop").on("click",function(){
+        $(window).scrollTop(0);
+    });
+
+    /*--- form----*/
+
+    $("form input, select").change(function(){
+        console.log($(this).val());
+    });
+
+    $("form").on ("submit", function() {
+        $.each( $("form input, select"),function(index, element) {
+            console.log( index + ": " + $(element).val());
+        });
+        return false;
+    });
+
+    $("#username").change(function() {
+        $("#username-2").val($(this).val())
+    });
+
+    $("#surname").change(function() {
+        $("#surname-2").val($(this).val())
+    });
+
+    $(".about").keydown(function(){
+        $(this).addClass("yellow-input");
+    });
+
+    $(".about").keyup(function(){
+        $(this).removeClass("yellow-input");
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

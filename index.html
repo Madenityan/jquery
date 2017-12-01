@@ -68,9 +68,7 @@
         </div>
         <div class="detach">
             <h2>detach</h2>
-            <div>
                 <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet</p>
-            </div>
             <button id="delete">detach</button>
         </div>
         <div class="eq">
@@ -126,33 +124,40 @@
             <button id="button-slidedown">slideDown</button>
         </div>
         <div class="slide Toggle">
-            <h2 id="slide-toggle">slidetoggle</h2>
+            <h2 id="slide-toggle">slide toggle</h2>
             <button id="button-slidetoggle">slideToggle</button>
         </div>
-
-
-
-
-
-
-
-
-
-
+        <div class="scroll Top">
+            <h2>scroll</h2>
+            <button id="button-scrolltop">scroll</button>
+        </div>
     </section>
+    <div class="containar">
+        <form name="about_me" class="form" method="get" action="#">
+            <fieldset class="form_1">
+                <legend>Коротко о себе</legend>
+                <label>Имя<input type="text" id="username" name="username" class="about" /></label>
+                <label>Имя-2<input type="text" id="username-2" name="username" class="about" /></label>
 
 
+                <label>Фамилия<input type="text" id="surname" name="surname" class="about" /></label>
+                <label>Фамилия-2<input type="text" id="surname-2" name="surname-2" class="about" /></label>
 
-
-
-
-
-
-
-
-
-
-<script src="jquery/jquery-3.2.1.min.js"></script>
+                <label>Пол<label class="inline"><input type="radio" name="gender" value="man" checked />мужской</label>
+                <label class="inline"><input type="radio" name="gender" value="woman"/>женский</label></label>
+                <select name="city" required>>
+                    <option>Ваш город:</option>
+                    <option value="Kyiv">Киев</option>
+                    <option value="Cherkasy">Черкассы</option>
+                    <option value="Lviv">Львов</option>
+                </select>
+                <label><input type="checkbox" name="nationality" value="outlander" />Иностранец</label>
+                <label><input type="checkbox" name="nationality" value="Ukrainian" />Украинец</label>
+                <button type="submit">Отправить</button>
+            </fieldset>
+        </form>
+    </div>
+    <script src="jquery/jquery-3.2.1.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

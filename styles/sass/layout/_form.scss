@@ -1,0 +1,46 @@
+.form {
+  margin-top:100px;
+  margin-bottom: 100px;
+
+  label {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  input {
+    margin-left: 10px;
+    outline: none;
+  }
+  .about {
+    width: 260px;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  select {
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color:$darkorange;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  legend {
+   color:$darkorange;
+  }
+}
+
+.yellow-input {
+  box-shadow: 0 0 10px rgba(245,133,12,0.5);
+}
+
+
+
+
